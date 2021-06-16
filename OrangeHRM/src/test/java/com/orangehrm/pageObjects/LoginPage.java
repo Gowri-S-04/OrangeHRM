@@ -22,7 +22,7 @@ public class LoginPage {
 	WebElement login;
 	@FindBy(xpath = "//*[@id=\"welcome\"]")
 	WebElement welcome;
-	@FindBy(xpath = "//*[@id=\"welcome-menu\"]/ul/li[2]/a")
+	@FindBy(xpath = "//*[@id=\"welcome-menu\"]/ul/li[3]/a")
 	WebElement logout;
 
 	public void userName(String uname) {
